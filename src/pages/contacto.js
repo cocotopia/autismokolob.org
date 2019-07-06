@@ -7,6 +7,10 @@ import Slider from '../images/pages/contacto.jpg';
 
 export default function Contacto() {
   const linkHref = '#';
+
+  var elmnt = document.getElementById('root');
+  elmnt.scrollIntoView();
+
   return (
     <div className="site-wrap">
       <div className="site-mobile-menu">

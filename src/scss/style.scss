@@ -8,3 +8,59 @@
 @import 'site-navbar';
 /* Blocks */
 @import 'site-blocks';
+
+.cuadro-horario {
+  background: #ec3159;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.cuadro-horario h3 {
+  font-size: 26px;
+}
+.cuadro-horario p {
+  margin: 0px;
+}
+.cuadro-educatea {
+  width: 100%;
+  height: 160px;
+  text-align: center;
+  padding: 10px 20px;
+  display: block;
+}
+
+.cuadro-educatea a {
+  border: 2px solid white;
+  padding: 10px 15px;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 30%;
+  right: 5px;
+}
+
+.cuadro-educatea a:hover {
+  background: #a13099;
+  color: white;
+}
+
+.cuadro-apadrina {
+  padding: 0px 15px;
+  height: 250px;
+}
+
+.cuadro-apadrina h2 {
+  margin: 0px;
+  padding: 10px 0px;
+  font-size: 28px;
+  text-align: center;
+  color: white;
+  margin-top: 0%;
+  background: rgba(0, 0, 0, 0.34901960784313724);
+}
+
+@media (max-width: 640px) {
+  header.site-navbar img {
+    width: 100px;
+  }
+}

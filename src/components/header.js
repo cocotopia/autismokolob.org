@@ -28,7 +28,7 @@ export default function header(props) {
               <div className="d-none d-xl-inline-block">
                 <a
                   href="https://educateaperu.org/"
-                  //target="_blank"
+                  target="_blank"
                   rel="noopener"
                   className="text-black h2 mb-0"
                 >
