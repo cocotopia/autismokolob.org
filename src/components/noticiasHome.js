@@ -67,17 +67,8 @@ export default function NoticiasHome() {
 
             <div className="row mb-3 align-items-stretch">
               <div className="col-md-12 col-lg-12 mb-12 mb-lg-12">
-                <div className="cuadro-horario">
-                  <h3>Nuestro horario de atención es:</h3>
-                  <p>
-                    <strong>De Lunes a Viernes de </strong> 8:00 a 13:00 y 15:00 a 19:00 Hrs.
-                  </p>
-                  <p>
-                    <strong>Sábados de</strong> 9:00 a 13:00 hrs
-                  </p>
-                </div>
-                <br />
-                <div
+
+              <div
                   className="cuadro-educatea"
                   style={{ backgroundImage: `url(${BacHandKeyboard})` }}
                 >
@@ -95,7 +86,22 @@ export default function NoticiasHome() {
                     </div>
                   </div>
                 </div>
+
                 <br />
+
+                <div className="cuadro-horario">
+                  <h3>Nuestro horario de atención es:</h3>
+                  <p>
+                    <strong>De Lunes a Viernes de </strong> 8:00 a 13:00 y 15:00 a 19:00 Hrs.
+                  </p>
+                  <p>
+                    <strong>Sábados de</strong> 9:00 a 13:00 hrs
+                  </p>
+                </div>
+                <br />
+
+            
+                <a href="/colabora/dona-o-apadrina">
                 <div
                   className="cuadro-apadrina"
                   style={{ backgroundImage: `url(${BackApadrina})` }}
@@ -104,6 +110,7 @@ export default function NoticiasHome() {
                     <h2>APADRINA A UNA PERSONA CON AUTISMO </h2>
                   </div>
                 </div>
+</a>
               </div>
             </div>
           </div>

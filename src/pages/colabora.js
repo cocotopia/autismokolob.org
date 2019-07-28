@@ -46,7 +46,7 @@ export default function Colabora(props) {
 
       <div className="site-section">
         <div className="container" data-aos="fade-up" />
-        {props.url === 'donaciones' ? (
+        {props.url === 'dona-o-apadrina' ? (
           <div className="row">
             <div className="col-lg-4 mb-5">
               <img src={Image} alt="" className="image-responsive" style={{ width: '100%' }} />
@@ -88,7 +88,7 @@ export default function Colabora(props) {
           </div>
         ) : null}
 
-        {props.url === 'servicios-con-descuento' ? (
+        {props.url === 'brinda-descuentos-y-ayuda' ? (
           <div className="row">
             <div className="col-lg-4 mb-5">
               <img src={Image} alt="" className="image-responsive" style={{ width: '100%' }} />
@@ -247,7 +247,7 @@ export default function Colabora(props) {
           </div>
         ) : null}
 
-        {props.url === 'estudios-para-personas-con-tea' ? (
+        {props.url === 'ayudalos-en-su-educacion' ? (
           <div className="row">
             <div className="col-lg-4 mb-5">
               <img src={Image} alt="" className="image-responsive" style={{ width: '100%' }} />

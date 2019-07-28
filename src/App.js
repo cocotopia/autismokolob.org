@@ -162,7 +162,7 @@ function App() {
             path="/servicios/aulas-terapeuticas-pedagogicas"
             render={() => (
               <Servicios
-                title={'Aulas Terapéticas Pedagógicas'}
+                title={'Aulas Terapéuticas Pedagógicas'}
                 url={'aulas-terapeuticas-pedagogicas'}
               />
             )}
@@ -205,8 +205,8 @@ function App() {
 
           <Route
             exact
-            path="/colabora/donaciones"
-            render={() => <Colabora title={'Donaciones'} url={'donaciones'} />}
+            path="/colabora/dona-o-apadrina"
+            render={() => <Colabora title={'Dona o apadrina'} url={'dona-o-apadrina'} />}
           />
           <Route
             exact
@@ -220,9 +220,9 @@ function App() {
           />
           <Route
             exact
-            path="/colabora/servicios-con-descuento"
+            path="/colabora/brinda-descuentos-y-ayuda"
             render={() => (
-              <Colabora title={'Servicios con descuento'} url={'servicios-con-descuento'} />
+              <Colabora title={'Brinda descuentos y ayuda'} url={'brinda-descuentos-y-ayuda'} />
             )}
           />
           <Route
@@ -239,12 +239,9 @@ function App() {
           />
           <Route
             exact
-            path="/colabora/estudios-para-personas-con-tea"
+            path="/colabora/ayudalos-en-su-educacion"
             render={() => (
-              <Colabora
-                title={'Estudios para personas con TEA'}
-                url={'estudios-para-personas-con-tea'}
-              />
+              <Colabora title={'Ayúdalos en su educación'} url={'ayudalos-en-su-educacion'} />
             )}
           />
 

@@ -45,6 +45,8 @@ import T_valeria_carrera from '../images/tecnico/valeria_carrera.jpg';
 import T_yeny_guillen from '../images/tecnico/yeny_guillen.jpg';
 import T_yesica_gonzales from '../images/tecnico/yesica_gonzales.jpg';
 import T_yizza_mayaute from '../images/tecnico/yizza_mayaute.jpg';
+import T_yeltsin_copa from '../images/tecnico/yeltsin_copa.jpg';
+import T_dana_vilca from '../images/tecnico/dana_vilca.jpg';
 
 export default function Nosotros(props) {
   //const linkHref = '#';
@@ -520,8 +522,13 @@ export default function Nosotros(props) {
                 </div>
 
                 <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
-                  <img src={Woman} alt="" className="img-fluid w-50 rounded-circle mb-4" />
+                  <img src={T_yeltsin_copa} alt="" className="img-fluid w-50 rounded-circle mb-4" />
                   <h2 className="text-black font-weight-light mb-4">Yeltsin Copa</h2>
+                </div>
+
+                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+                  <img src={T_dana_vilca} alt="" className="img-fluid w-50 rounded-circle mb-4" />
+                  <h2 className="text-black font-weight-light mb-4">Dana Vilca</h2>
                 </div>
               </div>
             </div>
@@ -574,7 +581,8 @@ export default function Nosotros(props) {
               <br />
               <br />
 
-              <div className="row justify-content-center mb-5" data-aos="fade-up">
+              {/* ocultar por mietras */}
+              <div className="row justify-content-center mb-5" data-aos="fade-up" hidden={true}>
                 <div className="col-md-7">
                   <h3 className="font-weight-light text-black text-center">
                     Red de Colaboradores y Asesores
@@ -582,7 +590,8 @@ export default function Nosotros(props) {
                 </div>
               </div>
 
-              <div className="row">
+              {/* ocultar por mietras */}
+              <div className="row" hidden={true}>
                 <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img src={Woman} alt="" className="img-fluid w-50 rounded-circle mb-4" />
                   <h2 className="text-black font-weight-light mb-4">Amamia Hervas</h2>

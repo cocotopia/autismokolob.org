@@ -123,7 +123,7 @@ export default function Menu() {
           <a href={linkHref}>Colabora</a>
           <ul className="dropdown">
             <li>
-              <Link to="/colabora/donaciones">Donaciones</Link>
+              <Link to="/colabora/dona-o-apadrina">Dona o apadrina</Link>
             </li>
             <li>
               <Link to="/colabora/contrata-a-alguien-con-autismo">
@@ -131,7 +131,7 @@ export default function Menu() {
               </Link>
             </li>
             <li>
-              <Link to="/colabora/servicios-con-descuento">Servicios con descuento</Link>
+              <Link to="/colabora/brinda-descuentos-y-ayuda">Brinda descuentos y ayuda</Link>
             </li>
             <li>
               <Link to="/colabora/practicas-pre-profesionales">Prácticas PRE Profesionales</Link>
@@ -140,9 +140,7 @@ export default function Menu() {
               <Link to="/colabora/voluntariado">Voluntariado</Link>
             </li>
             <li>
-              <Link to="/colabora/estudios-para-personas-con-tea">
-                Estudios para personas con TEA
-              </Link>
+              <Link to="/colabora/ayudalos-en-su-educacion">Ayúdalos en su educación</Link>
             </li>
           </ul>
         </li>

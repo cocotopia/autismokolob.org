@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="col-lg-9">
             <div className="mb-5">
               <h3 className="footer-heading mb-4">
-                CON EL RESPALDO DE:
+                EN CONVENIO CON:
                 <br />
                 <br />
                 ALEPH TEA (Asociación Libre para la Educación Personalizada y Humana de los
