@@ -23,30 +23,34 @@ import P_Olguin from '../images/padres/olguin.jpg';
 import P_Patricia from '../images/padres/patricia.jpg';
 import P_Yesila from '../images/padres/yesila.jpg';
 
-import T_ana_paula_fernandez from '../images/tecnico/ana_paula_fernandez.jpg';
+// import T_ana_paula_fernandez from '../images/tecnico/ana_paula_fernandez.jpg';
 import T_blanca_perez from '../images/tecnico/blanca_perez.jpg';
-import T_breny_zumaran from '../images/tecnico/breny_zumaran.jpg';
-import T_diana_velarde from '../images/tecnico/diana_velarde.jpg';
+// import T_breny_zumaran from '../images/tecnico/breny_zumaran.jpg';
+//import T_diana_velarde from '../images/tecnico/diana_velarde.jpg';
 import T_elio_avilan from '../images/tecnico/elio_avilan.jpg';
 import T_elizabeth_godoy from '../images/tecnico/elizabeth_godoy.jpg';
-import T_gabriel_silva from '../images/tecnico/gabriel_silva.jpg';
+// import T_gabriel_silva from '../images/tecnico/gabriel_silva.jpg';
 import T_jimena_diaz from '../images/tecnico/jimena_diaz.jpg';
 import T_karen_maquera from '../images/tecnico/karen_maquera.jpg';
 import T_leonardo_vilca from '../images/tecnico/leonardo_vilca.jpg';
 import T_maria_grazia_insua from '../images/tecnico/maria_grazia_insua.jpg';
-import T_miguel_perez from '../images/tecnico/miguel_perez.jpg';
-import T_milagros_lima from '../images/tecnico/milagros_lima.jpg';
+// import T_miguel_perez from '../images/tecnico/miguel_perez.jpg';
+// import T_milagros_lima from '../images/tecnico/milagros_lima.jpg';
 import T_mirelia_palomino from '../images/tecnico/mirelia_palomino.jpg';
 import T_monica_chambi from '../images/tecnico/monica_chambi.jpg';
 import T_nancy_chipoco from '../images/tecnico/nancy_chipoco.jpg';
-import T_raquel_valdivieso from '../images/tecnico/raquel_valdivieso.jpg';
+// import T_raquel_valdivieso from '../images/tecnico/raquel_valdivieso.jpg';
 import T_shiandy_contreras from '../images/tecnico/shiandy_contreras.jpg';
-import T_valeria_carrera from '../images/tecnico/valeria_carrera.jpg';
+// import T_valeria_carrera from '../images/tecnico/valeria_carrera.jpg';
 import T_yeny_guillen from '../images/tecnico/yeny_guillen.jpg';
 import T_yesica_gonzales from '../images/tecnico/yesica_gonzales.jpg';
 import T_yizza_mayaute from '../images/tecnico/yizza_mayaute.jpg';
-import T_yeltsin_copa from '../images/tecnico/yeltsin_copa.jpg';
+// import T_yeltsin_copa from '../images/tecnico/yeltsin_copa.jpg';
 import T_dana_vilca from '../images/tecnico/dana_vilca.jpg';
+import T_noemi_ramos from '../images/tecnico/noemi_ramos.jpg';
+import T_brigith_aranda from '../images/tecnico/brigith_aranda.jpg';
+import T_alejandra_almaraz from '../images/tecnico/alejandra_almaraz.jpg';
+import T_evarista_pongo from '../images/mantenimiento/evarista_pongo.jpg';
 
 export default function Nosotros(props) {
   //const linkHref = '#';
@@ -365,14 +369,16 @@ export default function Nosotros(props) {
                   />
                   <h2 className="text-black font-weight-light mb-4">Nancy Chipoco </h2>
                 </div>
-                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+
+                {/* <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img
                     src={T_diana_velarde}
                     alt=""
                     className="img-fluid w-50 rounded-circle mb-4"
                   />
                   <h2 className="text-black font-weight-light mb-4">Diana Velarde</h2>
-                </div>
+                </div> */}
+
                 <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img src={T_blanca_perez} alt="" className="img-fluid w-50 rounded-circle mb-4" />
                   <h2 className="text-black font-weight-light mb-4">Blanca Pérez</h2>
@@ -397,34 +403,39 @@ export default function Nosotros(props) {
                   />
                   <h2 className="text-black font-weight-light mb-4">Yizza Mayaute</h2>
                 </div>
-                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+
+                {/* <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img
                     src={T_milagros_lima}
                     alt=""
                     className="img-fluid w-50 rounded-circle mb-4"
                   />
                   <h2 className="text-black font-weight-light mb-4">Milagros Lima</h2>
-                </div>
-                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+                </div> */}
+
+                {/* <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img
                     src={T_raquel_valdivieso}
                     alt=""
                     className="img-fluid w-50 rounded-circle mb-4"
                   />
                   <h2 className="text-black font-weight-light mb-4">Raquel Valdivieso</h2>
-                </div>
+                </div> */}
+
                 <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img src={T_elio_avilan} alt="" className="img-fluid w-50 rounded-circle mb-4" />
                   <h2 className="text-black font-weight-light mb-4">Elio Avilan</h2>
                 </div>
-                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+
+                {/* <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img
                     src={T_breny_zumaran}
                     alt=""
                     className="img-fluid w-50 rounded-circle mb-4"
                   />
                   <h2 className="text-black font-weight-light mb-4">Breny Zumarán</h2>
-                </div>
+                </div> */}
+
                 <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img
                     src={T_mirelia_palomino}
@@ -450,14 +461,14 @@ export default function Nosotros(props) {
                   <h2 className="text-black font-weight-light mb-4">Karen Maquera</h2>
                 </div>
 
-                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+                {/* <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img
                     src={T_ana_paula_fernandez}
                     alt=""
                     className="img-fluid w-50 rounded-circle mb-4"
                   />
                   <h2 className="text-black font-weight-light mb-4">Ana Paula Fernández</h2>
-                </div>
+                </div> */}
 
                 <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img
@@ -482,14 +493,15 @@ export default function Nosotros(props) {
                   <h2 className="text-black font-weight-light mb-4">Elizabeth Godoy</h2>
                 </div>
 
-                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+                {/* <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img
                     src={T_valeria_carrera}
                     alt=""
                     className="img-fluid w-50 rounded-circle mb-4"
                   />
                   <h2 className="text-black font-weight-light mb-4">Valeria Carrera</h2>
-                </div>
+                </div> */}
+
                 <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img
                     src={T_shiandy_contreras}
@@ -498,10 +510,11 @@ export default function Nosotros(props) {
                   />
                   <h2 className="text-black font-weight-light mb-4">Shiandy Contreras</h2>
                 </div>
-                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+
+                {/* <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img src={T_miguel_perez} alt="" className="img-fluid w-50 rounded-circle mb-4" />
                   <h2 className="text-black font-weight-light mb-4">Miguel Pérez</h2>
-                </div>
+                </div> */}
 
                 <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img
@@ -512,23 +525,46 @@ export default function Nosotros(props) {
                   <h2 className="text-black font-weight-light mb-4">Leonardo Vilca</h2>
                 </div>
 
-                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+                {/* <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img
                     src={T_gabriel_silva}
                     alt=""
                     className="img-fluid w-50 rounded-circle mb-4"
                   />
                   <h2 className="text-black font-weight-light mb-4">Gabriel Silva</h2>
-                </div>
+                </div> */}
 
-                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+                {/* <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img src={T_yeltsin_copa} alt="" className="img-fluid w-50 rounded-circle mb-4" />
                   <h2 className="text-black font-weight-light mb-4">Yeltsin Copa</h2>
-                </div>
+                </div> */}
 
                 <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
                   <img src={T_dana_vilca} alt="" className="img-fluid w-50 rounded-circle mb-4" />
                   <h2 className="text-black font-weight-light mb-4">Dana Vilca</h2>
+                </div>
+
+                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+                  <img src={T_noemi_ramos} alt="" className="img-fluid w-50 rounded-circle mb-4" />
+                  <h2 className="text-black font-weight-light mb-4">Noemi Ramos</h2>
+                </div>
+
+                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+                  <img
+                    src={T_brigith_aranda}
+                    alt=""
+                    className="img-fluid w-50 rounded-circle mb-4"
+                  />
+                  <h2 className="text-black font-weight-light mb-4">Brigith Aranda</h2>
+                </div>
+
+                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+                  <img
+                    src={T_alejandra_almaraz}
+                    alt=""
+                    className="img-fluid w-50 rounded-circle mb-4"
+                  />
+                  <h2 className="text-black font-weight-light mb-4">Alejandra Almaraz</h2>
                 </div>
               </div>
             </div>
@@ -632,6 +668,25 @@ export default function Nosotros(props) {
                   <img src={Man} alt="" className="img-fluid w-50 rounded-circle mb-4" />
                   <h2 className="text-black font-weight-light mb-4">Ernesto Reaño</h2>
                   <p className="mb-4">Perú </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="container equipo">
+              <div className="row justify-content-center mb-5" data-aos="fade-up">
+                <div className="col-md-7">
+                  <h3 className="font-weight-light text-black text-center">Mantenimiento</h3>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
+                  <img
+                    src={T_evarista_pongo}
+                    alt=""
+                    className="img-fluid w-50 rounded-circle mb-4"
+                  />
+                  <h2 className="text-black font-weight-light mb-4">Evarista Pongo Yape </h2>
                 </div>
               </div>
             </div>
