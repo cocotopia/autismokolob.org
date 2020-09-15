@@ -4,7 +4,9 @@ import SliderHome from '../components/sliderHome';
 import VideoHome from '../components/videoHome';
 import NoticiasHome from '../components/noticiasHome';
 import Footer from '../components/footer';
-import FooterContact from '../components/footerContact';
+// import FooterContact from '../components/footerContact';
+import Donaciones from '../components/donaciones/';
+// import { getQuery } from '../_dependencies/utils';
 
 export default function Home() {
   return (
@@ -26,7 +28,9 @@ export default function Home() {
 
       <VideoHome />
 
-      <FooterContact />
+      {/* {getQuery('donaciones') ? <Donaciones /> : <FooterContact />} */}
+
+      <Donaciones />
 
       <Footer />
     </div>

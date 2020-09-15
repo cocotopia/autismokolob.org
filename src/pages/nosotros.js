@@ -17,11 +17,11 @@ import Patricia from '../images/staff/patricia.jpg';
 import Sthefanny from '../images/staff/sthefanny.jpg';
 import Jannet from '../images/staff/jannet.jpg';
 
-import P_Mayra from '../images/padres/mayra.jpg';
-import P_Linda from '../images/padres/linda.jpg';
-import P_Olguin from '../images/padres/olguin.jpg';
-import P_Patricia from '../images/padres/patricia.jpg';
-import P_Yesila from '../images/padres/yesila.jpg';
+// import P_Mayra from '../images/padres/mayra.jpg';
+// import P_Linda from '../images/padres/linda.jpg';
+// import P_Olguin from '../images/padres/olguin.jpg';
+// import P_Patricia from '../images/padres/patricia.jpg';
+// import P_Yesila from '../images/padres/yesila.jpg';
 
 // import T_ana_paula_fernandez from '../images/tecnico/ana_paula_fernandez.jpg';
 import T_blanca_perez from '../images/tecnico/blanca_perez.jpg';
@@ -585,30 +585,24 @@ export default function Nosotros(props) {
 
               <div className="row">
                 <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
-                  <img src={P_Mayra} alt="" className="img-fluid w-50 rounded-circle mb-4" />
-                  <h2 className="text-black font-weight-light mb-4">Mayra Delgado</h2>
-                  <p className="mb-4">Presidenta</p>
+                  <img src={Man} alt="" className="img-fluid w-50 rounded-circle mb-4" />
+                  <h2 className="text-black font-weight-light mb-4">Nombre</h2>
+                  <p className="mb-4">Cargo</p>
                 </div>
                 <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
-                  <img src={P_Yesila} alt="" className="img-fluid w-50 rounded-circle mb-4" />
-                  <h2 className="text-black font-weight-light mb-4">Yesila Arminta</h2>
-                  <p className="mb-4">Vice presidenta</p>
+                  <img src={Woman} alt="" className="img-fluid w-50 rounded-circle mb-4" />
+                  <h2 className="text-black font-weight-light mb-4">Nombre</h2>
+                  <p className="mb-4">Cargo</p>
                 </div>
                 <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
-                  <img src={P_Linda} alt="" className="img-fluid w-50 rounded-circle mb-4" />
-                  <h2 className="text-black font-weight-light mb-4">Linda Ríos</h2>
-                  <p className="mb-4">Secretaria </p>
-                </div>
-
-                <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
-                  <img src={P_Patricia} alt="" className="img-fluid w-50 rounded-circle mb-4" />
-                  <h2 className="text-black font-weight-light mb-4">Patricia Llanque </h2>
-                  <p className="mb-4">Tesorera </p>
+                  <img src={Man} alt="" className="img-fluid w-50 rounded-circle mb-4" />
+                  <h2 className="text-black font-weight-light mb-4">Nombre</h2>
+                  <p className="mb-4">Cargo</p>
                 </div>
                 <div className="col-md-6 col-lg-3 text-center mb-5" data-aos="fade-up">
-                  <img src={P_Olguin} alt="" className="img-fluid w-50 rounded-circle mb-4" />
-                  <h2 className="text-black font-weight-light mb-4">Olguín Quispe </h2>
-                  <p className="mb-4">Vocal </p>
+                  <img src={Woman} alt="" className="img-fluid w-50 rounded-circle mb-4" />
+                  <h2 className="text-black font-weight-light mb-4">Nombre</h2>
+                  <p className="mb-4">Cargo</p>
                 </div>
               </div>
 
