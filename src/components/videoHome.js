@@ -5,7 +5,7 @@ export default function VideoHome() {
     <div
       className="site-blocks-cover overlay inner-page-cover"
       style={{
-        backgroundImage: 'url(http://i3.ytimg.com/vi/W3oxhPkBcRc/maxresdefault.jpg)',
+        backgroundImage: 'url(https://i3.ytimg.com/vi/W3oxhPkBcRc/maxresdefault.jpg)',
         backgroundAttachment: 'fixed',
       }}
     >
